@@ -16,7 +16,7 @@ public class AngularJSController {
 	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(AngularJSController.class);
 
-	// http://127.0.0.1:8080/angularjs/test01  
+	// http://127.0.0.1:8080/angularjs/test01  asdfasdfasd
 	@RequestMapping(value = "/angularjs/test01", method = RequestMethod.GET)
 	public String test01(Locale locale, Model model) {	
 		return "/angularjs/AngularJs_Test_01";
